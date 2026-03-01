@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOUSHOULDASCENDTOCHAD</title>
+    <title>ACSENDTOCHAD</title>
     <style>
         body {
             margin: 0;
@@ -27,17 +27,53 @@
             width: 100%;
             max-width: 400px;
             outline: none;
+            margin-bottom: 30px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255,255,255,0.3);
+        }
+        .btn-ad {
+            background: linear-gradient(45deg, #ff0000, #660000);
+            color: white;
+            border: 1px solid #ff4444;
+        }
+        .btn-heaven {
+            background: linear-gradient(45deg, #00ccff, #0066cc);
+            color: white;
+            border: 1px solid #66ccff;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎵 teenageincel</h1>
+        <h1>дроптаунинцел</h1>
         <audio controls>
             <source src="teenageincel.mp3" type="audio/mpeg">
-            Ваш браузер не поддерживает аудио элемент.
+            к сожалению ваш браузер слишком тупой :/
         </audio>
+        
+        <div class="buttons">
+            <a href="https://looksmax.gg" class="btn btn-ad" target="_blank">попасть в ад</a>
+            <a href="https://looksmax.org" class="btn btn-heaven" target="_blank">попасть в рай</a>
+        </div>
     </div>
 </body>
 </html>
-
